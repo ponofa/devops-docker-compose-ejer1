@@ -30,8 +30,24 @@ app.get("/api/dashboard", (req, res) => {
   });
 });
 
+app.get("/api/galeria", (req, res) => {
+  // Demo: datos ficticios
+  res.json({
+    ok: true,
+    images: [
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200?random=1",
+      "https://picsum.photos/300/200?random=2"
+    ]
+  });
+});
+
+// Crear nueva api que responda 3 imagenes
+
 // app.listen(3000, () => console.log("API escuchando en puerto 3000"));
 app.listen(3000, "0.0.0.0", () => {
   console.log("API escuchando en puerto 3000");
 });
+
+
 

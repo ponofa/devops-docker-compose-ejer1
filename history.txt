@@ -1,0 +1,40 @@
+    1  ls
+    2  docker images
+    3  docker ps -a
+    4  docker compose up -d --build
+    5  docker images
+    6  docker ps -a
+    7  clear
+    8  docker compose stop
+    9  docker ps
+   10  docker ps -a
+   11  docker compose start
+   12  docker ps
+   13* docker compose do
+   14  docker ps
+   15  docker ps -a
+   16  docker volumes ls
+   17  docker volumes --help
+   18  docker volumes ls
+   19  docker compose volumes ls
+   20  docker volume ls
+   21  docker images
+   22  docker compose up --build
+   23  docker ps
+   24  docker ps -a
+   25  docker compose up -d
+   26  clear
+   27  docker exec -it backend sh
+   28  docker compose restart backend
+   29  docker logs backend -f
+   30  dcoker logs frontend -f
+   31  docker logs frontend -f
+   32  clear
+   33  docker network inspect redadd
+   34  docker network inspect redapp
+   35  docker network ls
+   36  docker network inspect devops-docker-compose-ejer1_redapp
+   37  docker exec -it frontend sh
+   38  docker compose up -d --build
+   39  ls
+   40  history > history.txt

@@ -41,6 +41,12 @@
       </div>
     </div>
   </div>
+  <div id="content" class="row g-3">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <button class="btn btn-secondary w-100" onclick="openGallery()">Ver Galeria</button>
+    </div>
+  </div>
   <div id="msg" class="mt-3 text-danger small"></div>
 </div>
 
@@ -48,6 +54,10 @@
 function logout() {
   localStorage.removeItem('token');
   window.location.href = '/';
+}
+
+function openGallery(){
+  window.location.href = '/gallery.html';
 }
 
 async function loadDashboard() {
